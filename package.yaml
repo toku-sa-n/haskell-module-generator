@@ -1,0 +1,8 @@
+name: haskell-module-generator
+version: 0.1.0.0
+
+dependencies:
+  - base
+
+library:
+  source-dirs: src
