@@ -11,10 +11,14 @@ license-file:   LICENSE
 build-type:     Simple
 
 library
+  exposed-modules:
+      GHC.Hs.Generator
   other-modules:
       Paths_haskell_module_generator
   hs-source-dirs:
       src
   build-depends:
-      base
+      QuickCheck
+    , base
+    , ghc-lib-parser
   default-language: Haskell2010

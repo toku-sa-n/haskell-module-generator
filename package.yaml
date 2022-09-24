@@ -3,6 +3,10 @@ version: 0.1.0.0
 
 dependencies:
   - base
+  - ghc-lib-parser
+  - QuickCheck
 
 library:
   source-dirs: src
+  exposed-modules:
+    - GHC.Hs.Generator
